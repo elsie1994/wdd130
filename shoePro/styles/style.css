@@ -24,7 +24,7 @@ header {
 }
 
 .logo img {
-    width: 150px; /* Set the width of your logo */
+    width: 150px; /* Set the width of logo */
     height: auto; /* Maintain the aspect ratio */
     margin-right: 10px; /* Add spacing to the right of the logo */
 }
@@ -58,7 +58,7 @@ nav a:hover {
 
 /* Hero Section Styles */
 .hero {
-    background: url('images/hero-image.jpg') center/cover no-repeat; /* Replace with your actual hero image */
+    background: url('images/hero-image.jpg') center/cover no-repeat; 
     color: rgb(73, 11, 143);
     text-align: center;
     padding: 5em 0;
@@ -70,7 +70,7 @@ nav a:hover {
 }
 
 .cta-button {
-    background-color: #ff3366; /* Your desired call-to-action button color */
+    background-color: #ff3366; 
     color: white;
     padding: 10px 20px;
     font-size: 1.2em;
@@ -133,27 +133,24 @@ section {
     width: 300px;
 }
 
-/* Apply a general style to all images within the shoe container */
 .shoe img {
-    max-width: 100%; /* Ensure images don't exceed the container width */
+    max-width: 100%; 
     height: auto;   /* Maintain aspect ratio */
 }
 
 /* Style for the thumbnail-sized images */
 .shoe {
-    /* width: 150px;    /* Set a fixed width for the thumbnail container */
-    /* height: 150px;   Set a fixed height for the thumbnail container */ 
-    overflow: hidden; /* Hide any overflow to keep a consistent size */
-    margin-bottom: 20px; /* Add some spacing between thumbnails */
-    border: 1px solid #ddd; /* Add a border for a clean look */
-    border-radius: 5px; /* Optional: Add rounded corners */
+    overflow: hidden; 
+    margin-bottom: 20px;
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
 }
 
 /* Center the text within the thumbnail container */
 .shoe h2,
 .shoe p {
     text-align: center;
-    margin: 5px 0; /* Add some spacing between text and edges */
+    margin: 5px 0; 
 }
 
 
